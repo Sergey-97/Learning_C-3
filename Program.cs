@@ -1,12 +1,11 @@
-﻿
-            Console.WriteLine("Введите число:");
-            number = int.Parse(Console.ReadLine());
+﻿Console.WriteLine("Введите число:");
+            int num = int.Parse(Console.ReadLine());
 
-            if (number % 2 == 1)
+            if (num % 2 == 1)
             {
-                Console.WriteLine("Число " + number + " является: нечётным");
+                Console.WriteLine("Число " + num + " является нечётным");
             }
             else
             {
-                Console.WriteLine("Число " + number + "является: чётным");
+                Console.WriteLine("Число " + num + "является чётным");
             }
